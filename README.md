@@ -1,6 +1,6 @@
 # React Chart Generator
 
-![React Chart](public/bar chart.png)
+![React Chart](public/screenshot.jpeg)
 
 ### Project Details
 
