@@ -27,13 +27,11 @@ export const defaultData = {
 
 export const defaultOptions = {
   scales: {
-    yAxes: [
-      {
-        ticks: {
-          beginAtZero: true,
-        },
+    yAxes: {
+      ticks: {
+        beginAtZero: true,
       },
-    ],
+    },
   },
   plugins: {
     title: {

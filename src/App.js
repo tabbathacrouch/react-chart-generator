@@ -224,6 +224,11 @@ function App() {
         </div>
       </div>
       <div className="row save_file">
+        <textarea
+          type="text"
+          placeholder="file name"
+          onChange={handleFileNameInput}
+        />
         <button
           onClick={handleFileSaveAsButton}
           id="fileSaveButton"
@@ -231,11 +236,6 @@ function App() {
         >
           Save Chart as .PNG
         </button>
-        <textarea
-          type="text"
-          placeholder="file name"
-          onChange={handleFileNameInput}
-        />
       </div>
       <div className="more_information">
         To view more information about customizing the{" "}
