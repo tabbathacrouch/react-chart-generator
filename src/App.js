@@ -86,7 +86,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React Chart Generator</h1>
+      <div className="title">React Chart Generator</div>
       <div className="row">
         <button type="button" onClick={handleUpdateCustomChartButton}>
           Update Custom Chart

@@ -4,9 +4,14 @@
   flex-direction: column;
   padding: 0 2rem 2rem 2rem;
   color: #fff;
-  position: relative;
-  border: rgb(250, 250, 250) solid 2rem;
-  background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+  background:url(https://raw.github.com/mmoustafa/Chalkboard/master/img/bg.png);
+  font-family: 'Caveat', cursive;
+  font-size: 1.25em;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 0.25em;
 }
 
 .row {
@@ -30,7 +35,7 @@ button:hover {
 .tooltip > .tooltiptext {
   visibility: hidden;
   width: 375px;
-  background-color: darkgray;
+  background-color: rgba(250, 250, 250, 0.8);
   color: black;
   border-radius: 0.5rem;
   position: absolute;
@@ -41,8 +46,7 @@ button:hover {
 
 .tooltiptext > .tooltipTitle {
   font-weight: 700;
-  font-size: 1.25rem;
-  font-style: italic;
+  border-bottom: 3px solid #000;
 }
 
 .tooltiptext > ul {
@@ -60,7 +64,6 @@ button:hover {
 
 .radio_buttons {
   margin-top: 1rem;
-  font-size: 1.15rem;
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -73,7 +76,6 @@ button:hover {
   margin-right: 1rem;
   border-radius: 0.5rem;
   border: 1px solid rgba(200, 200, 200, 0.5);
-  font-size: 1.15rem;
   color: rgba(250, 250, 250, 0.5);
   background: none;
 }
@@ -89,10 +91,12 @@ button:hover {
 
 .canvas {
   margin-top: 2rem;
-  width: 100%;
+  margin-bottom: 1em;
   display: flex;
   justify-content: center;
   background: white;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 .more_information {
