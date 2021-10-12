@@ -105,7 +105,9 @@ function App() {
                 Labels (independent variable) - <br />
                 Red, Blue, Yellow, Green, Purple, Orange
               </li>
-              <li>Description (independent variable) - # of Votes</li>
+              <li>
+                Description (independent variable) - <br /># of Votes
+              </li>
               <li>Data - 12, 19, 3, 5, 2, 3</li>
             </ul>
           </span>
